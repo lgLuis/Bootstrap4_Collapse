@@ -11,7 +11,7 @@
 <body>
     <header class="site-header">
         <div class="container">
-            <row class="align-items-center">
+            <row class="align-items-center ">
                 <div class="col">
                     <h1 class="align-middle text-center text-lg-left">Aprendiendo Bootsrtap 4</h1>
                     <p class="display-2 text-center text-lg-left">Aprende HTML5  CSS3 JS BOOTSTRAP 4</p>
@@ -25,6 +25,24 @@
     <main class="container">
         <div class="row">
             <div class="col-8">
+                <div id="servicios">
+                    <div class="card">
+                        <div class="card-header" id="servicio1">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion1" 
+                                aria-expanded="true" aria-controls="descripcion1">
+                                Desarrollo Web
+                                </button>
+                            </h2>
+                        </div> <!--FIN SERVICIO1-->
+                        <div id="descripcion1" class="collapse show" aria-labelledby="servicio1" data-parent="#servicios">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo eaque corporis facere nisi soluta vitae cumque ut, doloribus molestias commodi?
+                            </div>
+                        </div>
+                    </div><!--FIN CARD-->
+
+                </div>
 
             </div>
         </div>
@@ -33,6 +51,7 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.slim.js"></script>
     <script src="/js/popper.js"></script>
+
     
 </body>
 </html>
